@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>
+    <marquee>Baka Baka!!!!!</marquee>
+</h2>
+
+<h1>Index</h1>
+
+<ul>
+    <li>Student 1</li>
+    <li>Student 2</li>
+    <li>Student 3</li>
+    <li>Student 4</li>
+</ul>
+
+<p>@ViewBag.msg</p>
+<p>@ViewBag.age</p>
+
+@foreach(var s in ViewBag.stdData)
+            {
+                <li>@s</li>
+            }

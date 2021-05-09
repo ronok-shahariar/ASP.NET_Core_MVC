@@ -1,0 +1,37 @@
+﻿@model IEnumerable<FirstwebMVC.Models.StudentInfo>  
+@*return(data) was passed here*@ 
+
+@{
+    ViewData["Title"] = "StudentModelData";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>StudentModelData</h1>
+@*@foreach (var s in ViewBag.stdlist)
+{
+    <p>
+        @s.Fullname, @s.Age
+    </p>
+}*@
+
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var s in Model)
+        {
+            <tr>
+                <td>@s.Fullname</td>
+                <td>@s.Age</td>
+                <td>@s.Gender</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
