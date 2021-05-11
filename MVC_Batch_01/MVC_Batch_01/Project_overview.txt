@@ -1,0 +1,13 @@
+﻿Ecommerce pdoject
+
+Creating entity classes
+// Normalization
+
+1. Category
+2. Product
+//
+3. District
+4. Customer
+//
+5. Order  -> //customer
+6. OrderItem -> //product
