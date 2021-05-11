@@ -16,6 +16,7 @@ namespace MVC_Batch_01.Models
         public string Phone { get; set; }
 
         [ForeignKey("District")]
+        [Display(Name = "District")]
         public int DistrictID { get; set; }
         public District District { get; set; }
     }

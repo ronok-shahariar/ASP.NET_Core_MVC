@@ -24,6 +24,7 @@ namespace MVC_Batch_01.Models
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int OrderID { get; set; }
         [ForeignKey("Customer")]
+        [Display(Name = "Customer Name")]
         public int CustomerId { get; set; }
         public DateTime OrderDate { get; set; }
 
