@@ -192,3 +192,4 @@ C:\Users\Ronok Arya\source\repos\MVC_Batch_01\MVC_Batch_01\obj\Debug\netcoreapp3
 C:\Users\Ronok Arya\source\repos\MVC_Batch_01\MVC_Batch_01\obj\Debug\netcoreapp3.1\Razor\Views\OrderItems\Details.cshtml.g.cs
 C:\Users\Ronok Arya\source\repos\MVC_Batch_01\MVC_Batch_01\obj\Debug\netcoreapp3.1\Razor\Views\OrderItems\Edit.cshtml.g.cs
 C:\Users\Ronok Arya\source\repos\MVC_Batch_01\MVC_Batch_01\obj\Debug\netcoreapp3.1\Razor\Views\OrderItems\Index.cshtml.g.cs
+C:\Users\Ronok Arya\source\repos\MVC_Batch_01\MVC_Batch_01\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_TopNavPartial.cshtml.g.cs

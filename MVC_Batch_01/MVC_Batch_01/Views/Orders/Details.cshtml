@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Details";
+    decimal gtotal = 0;
 }
 
 <h1>Details</h1>
@@ -26,31 +27,42 @@
             @Html.DisplayNameFor(model => model.Customer.FullName)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Customer.FullName)
+            @Html.DisplayFor(model => model.Order.Customer.FullName)
         </dd>
     </dl>
 </div>
 
 
-<table class="table table-bordered">
+<table class="table table-bordered table-dark">
     <thead>
         <tr>
             <th>Item</th>
             <th>Qty</th>
             <th>Price</th>
+            <th>Sub Total</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model.OrderItems)
+        @foreach (var item in Model.OrderItems.Where(c=>c.OrderId==Model.Order.OrderID))
         {
-        <tr>
-            <td>@item.Product.ProductName</td>
-            <td>@item.OrderQty</td>
-            <td>@item.Product.UnitPrice</td>
+            <tr>
+                <td>@item.Product.ProductName</td>
+                <td>@item.OrderQty</td>
+                <td>@item.Product.UnitPrice</td>
+                <td class="text-right">
+                @(item.OrderQty*item.Product.UnitPrice)
+                </td>
 
-        </tr>
+            </tr>
+
+            gtotal += (item.OrderQty * item.Product.UnitPrice);
 
         }
+
+        <tr class="text-right font-weight-bold">
+            <td colspan="3">Grand Total:</td>
+            <td>@gtotal</td>
+        </tr>
     </tbody>
 
 </table>

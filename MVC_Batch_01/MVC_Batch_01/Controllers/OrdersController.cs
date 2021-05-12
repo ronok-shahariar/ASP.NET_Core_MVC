@@ -62,6 +62,7 @@ namespace MVC_Batch_01.Controllers
             {
                 Order = order,
                 OrderItems = orderItems,
+                Customers = customers,
 
             };
 
