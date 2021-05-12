@@ -1,4 +1,4 @@
-﻿@model MVC_Batch_01.Models.Order
+﻿@model MVC_Batch_01.Models.ViewModels
 
 @{
     ViewData["Title"] = "Details";
@@ -11,26 +11,53 @@
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.OrderDate)
+            @Html.DisplayNameFor(model => model.Order.OrderDate)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.OrderDate)
+            @Html.DisplayFor(model => model.Order.OrderDate)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.OrderStatus)
+            @Html.DisplayNameFor(model => model.Order.OrderStatus)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.OrderStatus)
+            @Html.DisplayFor(model => model.Order.OrderStatus)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Customer)
+            @Html.DisplayNameFor(model => model.Customer.FullName)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Customer.CustomerID)
+            @Html.DisplayFor(model => model.Customer.FullName)
         </dd>
     </dl>
 </div>
+
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Qty</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderItems)
+        {
+        <tr>
+            <td>@item.Product.ProductName</td>
+            <td>@item.OrderQty</td>
+            <td>@item.Product.UnitPrice</td>
+
+        </tr>
+
+        }
+    </tbody>
+
+</table>
+
+
+
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.OrderID">Edit</a> |
+    <a asp-action="Edit" asp-route-id="@Model.Order.OrderID">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>

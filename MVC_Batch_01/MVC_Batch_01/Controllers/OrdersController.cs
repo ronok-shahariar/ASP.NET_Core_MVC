@@ -52,12 +52,26 @@ namespace MVC_Batch_01.Controllers
             var order = await _context.Orders
                 .Include(o => o.Customer)
                 .FirstOrDefaultAsync(m => m.OrderID == id);
+
+            var orders = _context.Orders.ToList();
+            var orderItems = _context.OrderItems.ToList();
+            var customers = _context.Customers.ToList();
+            var products = _context.Products.ToList();
+
+            var vmodel = new ViewModels
+            {
+                Order = order,
+                OrderItems = orderItems,
+
+            };
+
+
             if (order == null)
             {
                 return NotFound();
             }
 
-            return View(order);
+            return View(vmodel);
         }
 
         // GET: Orders/Create
