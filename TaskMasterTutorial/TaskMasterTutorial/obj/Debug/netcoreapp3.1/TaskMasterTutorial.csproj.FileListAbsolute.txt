@@ -1,0 +1,15 @@
+C:\Users\Ronok Arya\source\repos\TaskMasterTutorial\TaskMasterTutorial\bin\Debug\netcoreapp3.1\TaskMasterTutorial.exe
+C:\Users\Ronok Arya\source\repos\TaskMasterTutorial\TaskMasterTutorial\bin\Debug\netcoreapp3.1\TaskMasterTutorial.deps.json
+C:\Users\Ronok Arya\source\repos\TaskMasterTutorial\TaskMasterTutorial\bin\Debug\netcoreapp3.1\TaskMasterTutorial.runtimeconfig.json
+C:\Users\Ronok Arya\source\repos\TaskMasterTutorial\TaskMasterTutorial\bin\Debug\netcoreapp3.1\TaskMasterTutorial.runtimeconfig.dev.json
+C:\Users\Ronok Arya\source\repos\TaskMasterTutorial\TaskMasterTutorial\bin\Debug\netcoreapp3.1\TaskMasterTutorial.dll
+C:\Users\Ronok Arya\source\repos\TaskMasterTutorial\TaskMasterTutorial\bin\Debug\netcoreapp3.1\TaskMasterTutorial.pdb
+C:\Users\Ronok Arya\source\repos\TaskMasterTutorial\TaskMasterTutorial\obj\Debug\netcoreapp3.1\TaskMasterTutorial.csprojAssemblyReference.cache
+C:\Users\Ronok Arya\source\repos\TaskMasterTutorial\TaskMasterTutorial\obj\Debug\netcoreapp3.1\TaskMasterTutorial.Form1.resources
+C:\Users\Ronok Arya\source\repos\TaskMasterTutorial\TaskMasterTutorial\obj\Debug\netcoreapp3.1\TaskMasterTutorial.csproj.GenerateResource.cache
+C:\Users\Ronok Arya\source\repos\TaskMasterTutorial\TaskMasterTutorial\obj\Debug\netcoreapp3.1\TaskMasterTutorial.AssemblyInfoInputs.cache
+C:\Users\Ronok Arya\source\repos\TaskMasterTutorial\TaskMasterTutorial\obj\Debug\netcoreapp3.1\TaskMasterTutorial.AssemblyInfo.cs
+C:\Users\Ronok Arya\source\repos\TaskMasterTutorial\TaskMasterTutorial\obj\Debug\netcoreapp3.1\TaskMasterTutorial.csproj.CoreCompileInputs.cache
+C:\Users\Ronok Arya\source\repos\TaskMasterTutorial\TaskMasterTutorial\obj\Debug\netcoreapp3.1\TaskMasterTutorial.dll
+C:\Users\Ronok Arya\source\repos\TaskMasterTutorial\TaskMasterTutorial\obj\Debug\netcoreapp3.1\TaskMasterTutorial.pdb
+C:\Users\Ronok Arya\source\repos\TaskMasterTutorial\TaskMasterTutorial\obj\Debug\netcoreapp3.1\TaskMasterTutorial.genruntimeconfig.cache
