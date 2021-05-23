@@ -1,0 +1,10 @@
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\bin\Debug\TaskMaster.exe.config
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\bin\Debug\TaskMaster.exe
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\bin\Debug\TaskMaster.pdb
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\obj\Debug\TaskMaster.csprojAssemblyReference.cache
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\obj\Debug\TaskMaster.Form1.resources
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\obj\Debug\TaskMaster.Properties.Resources.resources
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\obj\Debug\TaskMaster.csproj.GenerateResource.cache
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\obj\Debug\TaskMaster.csproj.CoreCompileInputs.cache
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\obj\Debug\TaskMaster.exe
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\obj\Debug\TaskMaster.pdb
