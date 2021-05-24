@@ -8,3 +8,11 @@ C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\obj\Debug\TaskMaster.cspr
 C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\obj\Debug\TaskMaster.csproj.CoreCompileInputs.cache
 C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\obj\Debug\TaskMaster.exe
 C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\obj\Debug\TaskMaster.pdb
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\bin\Debug\EntityFramework.dll
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\bin\Debug\EntityFramework.xml
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\obj\Debug\TaskMaster.csproj.CopyComplete
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\obj\Debug\TaskMaster.Migrations.AddStatusToDB.resources
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\obj\Debug\TaskMaster.Migrations.AddStatusSeedDataToDB.resources
+C:\Users\Ronok Arya\source\repos\TaskMaster\TaskMaster\obj\Debug\TaskMaster.Migrations.AddTaskToDB.resources
